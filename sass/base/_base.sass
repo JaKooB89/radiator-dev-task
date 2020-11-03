@@ -1,0 +1,33 @@
+*
+  margin: 0
+  padding: 0
+  box-sizing: inherit
+  &::after, &::before
+    margin: 0
+    padding: 0
+    box-sizing: inherit
+
+html
+  font-size: 62.5%
+  @include media(mx)
+    font-size: 75%
+  @include media(lg)
+    font-size: 56.25%
+  @include media(md)
+    font-size: 50%
+  @include media(sm)
+    font-size: 30%
+
+body
+  box-sizing: border-box
+  overflow-x: hidden
+
+a
+  text-decoration: none
+
+img
+  display: block
+
+::selection
+  background-color: $color-primary-light
+  color: $color-white

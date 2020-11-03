@@ -1,0 +1,22 @@
+.section-featured
+  &__media
+    &--divided
+      position: relative
+      &:before
+        content: ""
+        top: 0
+        left: 50%
+        transform: translateX(-50%)
+        width: $gutter-sm
+        height: 100%
+        background: white
+        position: absolute
+      &:after
+        content: ""
+        top: 50%
+        left: 0
+        transform: translateY(-50%)
+        width: 50%
+        height: $gutter-sm
+        background: white
+        position: absolute

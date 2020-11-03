@@ -1,0 +1,32 @@
+@mixin absolute-center
+  position: absolute
+  top: 50%
+  left: 50%
+  transform: translate(-50%, -50%)
+
+// MEDIA QUERIES
+
+// MOBILE-SMALL 0 - 320px
+// MOBILE 320px - 600px
+// TABLET-PORTRAIT 600px - 900px
+// TABLET-LANDSCAPE 900px - 1200px
+// LAPTOP 1200px - 1800px
+// DESKTOP 1800px +
+// 1em = 16px
+
+@mixin media($breakpoint)
+  @if $breakpoint == xs
+    @media (max-width: 20em) // 320px
+      @content
+  @if $breakpoint == sm
+    @media (max-width: 37.5em) // 600px
+      @content
+  @if $breakpoint == md
+    @media (max-width: 56.25em) // 900px
+      @content
+  @if $breakpoint == lg
+    @media (max-width: 75em) // 1200px
+      @content
+  @if $breakpoint == mx
+    @media (min-width: 112.5em) // 1800px
+      @content
