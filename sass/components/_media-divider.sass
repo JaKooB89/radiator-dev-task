@@ -2,21 +2,21 @@
   &__media
     &--divided
       position: relative
-      &:before
+      &:before,
+      &:after
         content: ""
+        background: white
+        position: absolute
+        z-index: 10
+      &:before
         top: 0
         left: 50%
         transform: translateX(-50%)
         width: $gutter-sm
         height: 100%
-        background: white
-        position: absolute
       &:after
-        content: ""
         top: 50%
         left: 0
         transform: translateY(-50%)
         width: 50%
         height: $gutter-sm
-        background: white
-        position: absolute
