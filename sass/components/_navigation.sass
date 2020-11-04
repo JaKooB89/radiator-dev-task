@@ -1,0 +1,25 @@
+.page-header
+  display: grid
+  grid-template-columns: repeat(2, 1fr)
+  padding-top: $gutter-sm
+  padding-bottom: $gutter-sm
+  @include layout-gutter-x
+
+.navigation-mobile
+  display: none
+  @include media(sm)
+    display: block
+.navigation-primary
+  display: flex
+  justify-content: flex-start
+  align-items: center
+  @include media(sm)
+    display: none
+  &__item
+    margin-right: $gutter-md
+  &__cta
+    margin: 0 0 0 auto
+
+.logo__image
+  height: 40px
+  width: auto

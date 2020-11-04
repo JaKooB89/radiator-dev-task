@@ -11,19 +11,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8fcdd443-e38b-4578-ac4d-60ab5ee8fc82" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/sass/components/_contact.sass" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sass/components/_footer.sass" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sass/components/_navigation.sass" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sass/components/_section-featured.sass" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sass/themes/_dark.sass" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sass/themes/_imagery.sass" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/min/main.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/min/main.min.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/min/main.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/min/main.min.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/abstracts/_image-ratios.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/abstracts/_mixins.sass" beforeDir="false" afterPath="$PROJECT_DIR$/sass/abstracts/_mixins.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/abstracts/_variables.sass" beforeDir="false" afterPath="$PROJECT_DIR$/sass/abstracts/_variables.sass" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sass/base/_typography.sass" beforeDir="false" afterPath="$PROJECT_DIR$/sass/base/_typography.sass" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sass/base/_utilities.sass" beforeDir="false" afterPath="$PROJECT_DIR$/sass/base/_utilities.sass" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sass/components/_button.sass" beforeDir="false" afterPath="$PROJECT_DIR$/sass/components/_button.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sass/components/_navigation-underline.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/components/_media-divider.sass" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/sass/components/_slider.sass" beforeDir="false" afterPath="$PROJECT_DIR$/sass/components/_slider.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sass/layout/_layout.sass" beforeDir="false" afterPath="$PROJECT_DIR$/sass/layout/_layout.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/layout/_layout.sass" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/sass/main.sass" beforeDir="false" afterPath="$PROJECT_DIR$/sass/main.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/pages/_home.sass" beforeDir="false" afterPath="$PROJECT_DIR$/sass/components/_banner.sass" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,6 +86,17 @@
       <envs />
       <method v="2" />
     </configuration>
+    <configuration name="watcher" type="js.build_tools.gulp" temporary="true">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile>$PROJECT_DIR$/gulpfile.js</gulpfile>
+      <tasks>
+        <task>watcher</task>
+      </tasks>
+      <arguments />
+      <envs />
+      <method v="2" />
+    </configuration>
     <configuration name="compile:css" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -118,23 +137,13 @@
       <envs />
       <method v="2" />
     </configuration>
-    <configuration name="test" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
-      <package-json value="$PROJECT_DIR$/package.json" />
-      <command value="run" />
-      <scripts>
-        <script value="test" />
-      </scripts>
-      <node-interpreter value="project" />
-      <envs />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gulp.js.watcher" />
         <item itemvalue="npm.compile:watch" />
         <item itemvalue="npm.compile:css" />
         <item itemvalue="npm.compile:js" />
         <item itemvalue="npm.start" />
-        <item itemvalue="npm.test" />
       </list>
     </recent_temporary>
   </component>
@@ -158,7 +167,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604431672799</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Update">
+      <created>1604528440635</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1604528440636</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -182,10 +198,10 @@
       <screen x="0" y="0" width="1829" height="999" />
     </state>
     <state x="369" y="155" width="1089" height="737" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1829.999@0.0.1829.999" timestamp="1604426821191" />
-    <state x="536" y="0" key="CommitChangelistDialog2" timestamp="1604431671391">
+    <state x="536" y="0" key="CommitChangelistDialog2" timestamp="1604528439789">
       <screen x="0" y="0" width="1829" height="999" />
     </state>
-    <state x="536" y="0" key="CommitChangelistDialog2/0.0.1829.999@0.0.1829.999" timestamp="1604431671391" />
+    <state x="536" y="0" key="CommitChangelistDialog2/0.0.1829.999@0.0.1829.999" timestamp="1604528439789" />
     <state x="852" y="717" width="564" height="195" key="Github.ShareDialog" timestamp="1604421902960">
       <screen x="0" y="0" width="3072" height="1698" />
     </state>
@@ -194,38 +210,38 @@
       <screen x="0" y="0" width="3072" height="1698" />
     </state>
     <state x="551" y="468" key="Github.UntrackedFilesDialog/0.0.3072.1698/-1920.1067.1920.1050@0.0.3072.1698" timestamp="1604421916597" />
-    <state width="1785" height="266" key="GridCell.Tab.0.bottom" timestamp="1604525538519">
+    <state width="1785" height="266" key="GridCell.Tab.0.bottom" timestamp="1604531459115">
       <screen x="0" y="0" width="1829" height="999" />
     </state>
-    <state width="1785" height="266" key="GridCell.Tab.0.bottom/0.0.1829.999@0.0.1829.999" timestamp="1604525538519" />
+    <state width="1785" height="266" key="GridCell.Tab.0.bottom/0.0.1829.999@0.0.1829.999" timestamp="1604531459115" />
     <state width="1488" height="225" key="GridCell.Tab.0.bottom/0.0.3072.1698/-1920.1067.1920.1050@0.0.3072.1698" timestamp="1604421974264" />
-    <state width="1785" height="266" key="GridCell.Tab.0.center" timestamp="1604525538518">
+    <state width="1785" height="266" key="GridCell.Tab.0.center" timestamp="1604531459115">
       <screen x="0" y="0" width="1829" height="999" />
     </state>
-    <state width="1785" height="266" key="GridCell.Tab.0.center/0.0.1829.999@0.0.1829.999" timestamp="1604525538518" />
+    <state width="1785" height="266" key="GridCell.Tab.0.center/0.0.1829.999@0.0.1829.999" timestamp="1604531459115" />
     <state width="1488" height="225" key="GridCell.Tab.0.center/0.0.3072.1698/-1920.1067.1920.1050@0.0.3072.1698" timestamp="1604421974263" />
-    <state width="1785" height="266" key="GridCell.Tab.0.left" timestamp="1604525538518">
+    <state width="1785" height="266" key="GridCell.Tab.0.left" timestamp="1604531459115">
       <screen x="0" y="0" width="1829" height="999" />
     </state>
-    <state width="1785" height="266" key="GridCell.Tab.0.left/0.0.1829.999@0.0.1829.999" timestamp="1604525538518" />
+    <state width="1785" height="266" key="GridCell.Tab.0.left/0.0.1829.999@0.0.1829.999" timestamp="1604531459115" />
     <state width="1488" height="225" key="GridCell.Tab.0.left/0.0.3072.1698/-1920.1067.1920.1050@0.0.3072.1698" timestamp="1604421974263" />
-    <state width="1785" height="266" key="GridCell.Tab.0.right" timestamp="1604525538519">
+    <state width="1785" height="266" key="GridCell.Tab.0.right" timestamp="1604531459115">
       <screen x="0" y="0" width="1829" height="999" />
     </state>
-    <state width="1785" height="266" key="GridCell.Tab.0.right/0.0.1829.999@0.0.1829.999" timestamp="1604525538519" />
+    <state width="1785" height="266" key="GridCell.Tab.0.right/0.0.1829.999@0.0.1829.999" timestamp="1604531459115" />
     <state width="1488" height="225" key="GridCell.Tab.0.right/0.0.3072.1698/-1920.1067.1920.1050@0.0.3072.1698" timestamp="1604421974263" />
     <state x="1217" y="540" key="SettingsEditor" timestamp="1604482532594">
       <screen x="0" y="0" width="3072" height="1698" />
     </state>
     <state x="1217" y="540" key="SettingsEditor/0.0.3072.1698/-1920.1067.1920.1050@0.0.3072.1698" timestamp="1604482532594" />
-    <state x="507" y="233" key="Vcs.Push.Dialog.v2" timestamp="1604431675708">
+    <state x="507" y="233" key="Vcs.Push.Dialog.v2" timestamp="1604528444108">
       <screen x="0" y="0" width="1829" height="999" />
     </state>
-    <state x="507" y="233" key="Vcs.Push.Dialog.v2/0.0.1829.999@0.0.1829.999" timestamp="1604431675708" />
-    <state x="740" y="337" width="546" height="526" key="find.popup" timestamp="1604520392409">
+    <state x="507" y="233" key="Vcs.Push.Dialog.v2/0.0.1829.999@0.0.1829.999" timestamp="1604528444108" />
+    <state x="740" y="112" width="802" height="751" key="find.popup" timestamp="1604531499102">
       <screen x="0" y="0" width="1829" height="999" />
     </state>
-    <state x="740" y="337" width="546" height="526" key="find.popup/0.0.1829.999@0.0.1829.999" timestamp="1604520392409" />
+    <state x="740" y="112" width="802" height="751" key="find.popup/0.0.1829.999@0.0.1829.999" timestamp="1604531499102" />
     <state x="1243" y="573" width="576" height="789" key="find.popup/0.0.3072.1698/-1920.1067.1920.1050@0.0.3072.1698" timestamp="1604342326381" />
     <state x="1243" y="573" width="576" height="789" key="find.popup/0.0.3072.1698/-1920.1067.1920.1080@0.0.3072.1698" timestamp="1604508055413" />
     <state x="571" y="231" width="672" height="677" key="run.anything.popup" timestamp="1604437885759">

@@ -1,0 +1,43 @@
+.section-featured
+  display: grid
+  grid-template-columns: repeat(2, 1fr)
+  @include media(md)
+    grid-template-columns: auto
+  &__content
+    @include layout-gutter-y
+    @include layout-gutter-x
+  &__media
+    &--divided
+      position: relative
+      &:before,
+      &:after
+        content: ""
+        background: white
+        position: absolute
+        z-index: 10
+      &:before
+        top: 0
+        left: 50%
+        transform: translateX(-50%)
+        width: $gutter-sm
+        height: 100%
+      &:after
+        top: 50%
+        left: 0
+        transform: translateY(-50%)
+        width: 50%
+        height: $gutter-sm
+  &--reversed
+    margin-bottom: $gutter-sm
+    @include media(md)
+      grid-template-columns: auto
+    .section-featured__content
+      grid-row: 1
+      @include media(md)
+        grid-row: unset
+
+.featured-image
+  &__image
+    object-fit: cover
+    @include media(md)
+      max-height: calc(100vh - (2 * #{$gutter-sm}))

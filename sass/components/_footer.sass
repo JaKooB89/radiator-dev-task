@@ -1,0 +1,18 @@
+.page-footer
+  display: grid
+  grid-template-columns: repeat(2, 1fr)
+  background-color: $color-primary
+  background-image: url("../../assets/footer-bg.png")
+  background-repeat: repeat
+  background-size: 320px
+  padding-bottom: 4rem
+  .contact,
+  .navigation-footer
+    @include layout-gutter-y
+    @include layout-gutter-x
+  @include media(sm)
+    grid-template-columns: auto
+  .navigation-footer
+    @include media(sm)
+      grid-row: 1
+      padding-bottom: 0

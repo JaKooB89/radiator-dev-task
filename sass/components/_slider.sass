@@ -39,6 +39,15 @@
       flex-direction: row
       width: 100%
 
+.product-info
+  margin: 0 2rem
+  &__heading
+    margin-bottom: .4rem
+
+.product-actions
+  margin: 0 2rem
+
+// Slick overrides
 .slick-arrow
   cursor: pointer
   border-color: $color-primary
@@ -49,7 +58,7 @@
     margin-right: 0
     background-color: transparent
     transition: all .4s ease
-  &:hover
+  &.btn:hover
     background-color: $color-primary
     .las
       color: $color-white
@@ -92,10 +101,3 @@
         opacity: 1
     &.slick-active button:before
       background-color: $color-primary
-
-.product-info
-  margin: 0 2rem
-  &__heading
-    margin-bottom: .4rem
-.product-actions
-  margin: 0 2rem
