@@ -10,19 +10,17 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8fcdd443-e38b-4578-ac4d-60ab5ee8fc82" name="Default Changelist" comment="Initial Commit">
-      <change afterPath="$PROJECT_DIR$/sass/components/_button.sass" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sass/components/_social-links.sass" afterDir="false" />
+    <list default="true" id="8fcdd443-e38b-4578-ac4d-60ab5ee8fc82" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/sass/components/_contact.sass" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/min/main.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/min/main.min.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/min/main.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/min/main.min.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sass/abstracts/_mixins.sass" beforeDir="false" afterPath="$PROJECT_DIR$/sass/abstracts/_mixins.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sass/abstracts/_variables.sass" beforeDir="false" afterPath="$PROJECT_DIR$/sass/abstracts/_variables.sass" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sass/base/_typography.sass" beforeDir="false" afterPath="$PROJECT_DIR$/sass/base/_typography.sass" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sass/base/_utilities.sass" beforeDir="false" afterPath="$PROJECT_DIR$/sass/base/_utilities.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sass/components/_navigation-underline.sass" beforeDir="false" afterPath="$PROJECT_DIR$/sass/components/_navigation-underline.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/components/_button.sass" beforeDir="false" afterPath="$PROJECT_DIR$/sass/components/_button.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/components/_navigation-underline.sass" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/sass/components/_slider.sass" beforeDir="false" afterPath="$PROJECT_DIR$/sass/components/_slider.sass" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sass/layout/_layout.sass" beforeDir="false" afterPath="$PROJECT_DIR$/sass/layout/_layout.sass" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sass/main.sass" beforeDir="false" afterPath="$PROJECT_DIR$/sass/main.sass" afterDir="false" />
@@ -196,25 +194,25 @@
       <screen x="0" y="0" width="3072" height="1698" />
     </state>
     <state x="551" y="468" key="Github.UntrackedFilesDialog/0.0.3072.1698/-1920.1067.1920.1050@0.0.3072.1698" timestamp="1604421916597" />
-    <state width="1785" height="266" key="GridCell.Tab.0.bottom" timestamp="1604430842552">
+    <state width="1785" height="266" key="GridCell.Tab.0.bottom" timestamp="1604525538519">
       <screen x="0" y="0" width="1829" height="999" />
     </state>
-    <state width="1785" height="266" key="GridCell.Tab.0.bottom/0.0.1829.999@0.0.1829.999" timestamp="1604430842552" />
+    <state width="1785" height="266" key="GridCell.Tab.0.bottom/0.0.1829.999@0.0.1829.999" timestamp="1604525538519" />
     <state width="1488" height="225" key="GridCell.Tab.0.bottom/0.0.3072.1698/-1920.1067.1920.1050@0.0.3072.1698" timestamp="1604421974264" />
-    <state width="1785" height="266" key="GridCell.Tab.0.center" timestamp="1604430842552">
+    <state width="1785" height="266" key="GridCell.Tab.0.center" timestamp="1604525538518">
       <screen x="0" y="0" width="1829" height="999" />
     </state>
-    <state width="1785" height="266" key="GridCell.Tab.0.center/0.0.1829.999@0.0.1829.999" timestamp="1604430842552" />
+    <state width="1785" height="266" key="GridCell.Tab.0.center/0.0.1829.999@0.0.1829.999" timestamp="1604525538518" />
     <state width="1488" height="225" key="GridCell.Tab.0.center/0.0.3072.1698/-1920.1067.1920.1050@0.0.3072.1698" timestamp="1604421974263" />
-    <state width="1785" height="266" key="GridCell.Tab.0.left" timestamp="1604430842552">
+    <state width="1785" height="266" key="GridCell.Tab.0.left" timestamp="1604525538518">
       <screen x="0" y="0" width="1829" height="999" />
     </state>
-    <state width="1785" height="266" key="GridCell.Tab.0.left/0.0.1829.999@0.0.1829.999" timestamp="1604430842552" />
+    <state width="1785" height="266" key="GridCell.Tab.0.left/0.0.1829.999@0.0.1829.999" timestamp="1604525538518" />
     <state width="1488" height="225" key="GridCell.Tab.0.left/0.0.3072.1698/-1920.1067.1920.1050@0.0.3072.1698" timestamp="1604421974263" />
-    <state width="1785" height="266" key="GridCell.Tab.0.right" timestamp="1604430842552">
+    <state width="1785" height="266" key="GridCell.Tab.0.right" timestamp="1604525538519">
       <screen x="0" y="0" width="1829" height="999" />
     </state>
-    <state width="1785" height="266" key="GridCell.Tab.0.right/0.0.1829.999@0.0.1829.999" timestamp="1604430842552" />
+    <state width="1785" height="266" key="GridCell.Tab.0.right/0.0.1829.999@0.0.1829.999" timestamp="1604525538519" />
     <state width="1488" height="225" key="GridCell.Tab.0.right/0.0.3072.1698/-1920.1067.1920.1050@0.0.3072.1698" timestamp="1604421974263" />
     <state x="1217" y="540" key="SettingsEditor" timestamp="1604482532594">
       <screen x="0" y="0" width="3072" height="1698" />
@@ -224,9 +222,10 @@
       <screen x="0" y="0" width="1829" height="999" />
     </state>
     <state x="507" y="233" key="Vcs.Push.Dialog.v2/0.0.1829.999@0.0.1829.999" timestamp="1604431675708" />
-    <state x="1243" y="573" width="576" height="789" key="find.popup" timestamp="1604508055413">
-      <screen x="0" y="0" width="3072" height="1698" />
+    <state x="740" y="337" width="546" height="526" key="find.popup" timestamp="1604520392409">
+      <screen x="0" y="0" width="1829" height="999" />
     </state>
+    <state x="740" y="337" width="546" height="526" key="find.popup/0.0.1829.999@0.0.1829.999" timestamp="1604520392409" />
     <state x="1243" y="573" width="576" height="789" key="find.popup/0.0.3072.1698/-1920.1067.1920.1050@0.0.3072.1698" timestamp="1604342326381" />
     <state x="1243" y="573" width="576" height="789" key="find.popup/0.0.3072.1698/-1920.1067.1920.1080@0.0.3072.1698" timestamp="1604508055413" />
     <state x="571" y="231" width="672" height="677" key="run.anything.popup" timestamp="1604437885759">
