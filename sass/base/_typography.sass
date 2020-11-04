@@ -1,24 +1,55 @@
+//  Avant Garde font-weights available: 300, 700
+//  Europa font-weights available: 400, 700
 body
   font-size: 1.6rem
   line-height: 1.6
   font-family: $body-font
   font-weight: 400
 
+.heading-primary,
+.heading-secondary,
+.heading-tertiary,
+.paragraph,
+.navigation-primary__item
+  font-style: normal
+  color: $color-text
+  .theme-dark &
+    color: $color-white
+    &--highlighted
+      color: $color-secondary
+
 .heading-primary
   font-family: $title-font
   font-size: 6rem
   line-height: 1
-  color: $color-primary
+  margin-bottom: 4rem
+  font-weight: 700
+
 .heading-secondary
   font-family: $title-font
   font-size: 3.5rem
   line-height: 1
-  color: $color-primary
+  font-weight: 700
+
 .heading-tertiary
   font-size: $default-font-size
+
 .paragraph
   font-size: $default-font-size
+  margin-bottom: 4rem
+  &--highlighted
+    font-family: $title-font
+    font-size: 1.7rem
+    font-weight: 300
 
 .navigation-footer
   &__item
     list-style: none
+    margin-bottom: 1.45rem
+    &__link
+      color: $color-white
+
+.contact-footer
+  display: grid
+  *
+    color: $color-white

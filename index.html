@@ -45,7 +45,7 @@
         <section class="section-featured section-featured--reversed">
             <div class="section-featured__media section-featured__media--divided">
                 <picture class="featured-image">
-                    <img src="images/Cabin-1-Side-View-web@0.5x.jpg" alt="" class="featured-image__image">
+                    <img srcset="images/Cabin-1-Side-View-web@0.5x.jpg 1x, images/Cabin-1-Side-View-web@1x.jpg 2x" src="images/Cabin-1-Side-View-web@0.5x.jpg" alt="Cabin 1: Side View" class="featured-image__image">
                 </picture>
             </div>
             <div class="section-featured__content">
@@ -54,11 +54,8 @@
                         Space to drive your passion.
                     </h1>
                     <div class="text-block__content">
-                        <p class="text-block__text text-block__text--highlighted">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis et fuga nulla numquam obcaecati, quisquam quos sed? Doloribus eligendi in magni.
-                        </p>
-                        <p class="text-block__text">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis et fuga nulla numquam obcaecati, quisquam quos sed? Doloribus eligendi in magni.
+                        <p class="text-block__text paragraph">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo
                         </p>
                         <a href="#" class="btn">Find&nbsp;your&nbsp;Space</a>
                     </div>
@@ -69,7 +66,7 @@
         <section class="section-featured theme-dark">
             <div class="section-featured__media">
                 <picture class="featured-image">
-                    <img src="images/user@1x.jpg" alt="" class="featured-image__image">
+                    <img srcset="images/user@0.5x.jpg 1x, images/user@1x.jpg 2x" src="images/user@1x.jpg" alt="Woman working on a laptop" class="featured-image__image">
                 </picture>
             </div>
             <div class="section-featured__content">
@@ -78,12 +75,10 @@
                         Our Vision
                     </h1>
                     <div class="text-block__content">
-                        <p class="text-block__text text-block__text--highlighted">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus error impedit, iure laborum necessitatibus placeat similique? Eum facere id illo modi odio ratione voluptatibus? A dicta dolore doloremque incidunt quia!
-                        </p>
-                        <p class="text-block__text">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus error impedit, iure laborum necessitatibus placeat similique? Eum facere id illo modi odio ratione voluptatibus? A dicta dolore doloremque incidunt quia!
-                        </p>
+                        <p class="text-block__text text-block__text paragraph paragraph--highlighted">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra</p>
+                        <p class="text-block__text paragraph">
+                            maecenas accumsan lacus vel facilisis. labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra. maecenas.accumsan lacus vel facilisis.</p>
                         <a href="#" class="btn">About&nbsp;Us</a>
                     </div>
                 </div>
@@ -93,10 +88,10 @@
         <section class="section-slider">
             <div class="section-slider__gallery" id="productSliderGallery">
                 <picture class="banner-image">
-                    <img src="images/Cabin8@1x.jpg" alt="" class="banner-image__image">
+                    <img srcset="images/Cabin8@0.5x.jpg 1x, images/Cabin8@1x.jpg 2x" src="images/Cabin8@1x.jpg" alt="Cabin 8: Front View" class="banner-image__image">
                 </picture>
                 <picture class="banner-image">
-                    <img src="images/Cabin1@1x.jpg" alt="" class="banner-image__image">
+                    <img srcset="images/Cabin1@0.5x.jpg 1x, images/Cabin1@1x.jpg 2x" src="images/Cabin1@1x.jpg" alt="Cabin 1: Side View" class="banner-image__image">
                 </picture>
             </div>
             <div class="section-slider__caption" id="productSliderCaptions">
@@ -107,23 +102,23 @@
                     </div>
                     <div class="product-actions">
                         <a href="#" class="btn">View&nbsp;Product</a>
-                        <a href="#" class="btn">&#43;</a>
+                        <a href="#" class="btn btn--icon"><i class="las la-plus"></i></a>
                     </div>
                 </div>
                 <div class="section-slider__caption__single">
                     <div class="product-info">
-                        <h1 class="product-info__heading heading-secondary">The Hive 2</h1>
-                        <p class="product-info__details">from £22,150 | 280 SF | 2 Door</p>
+                        <h1 class="product-info__heading heading-secondary">The Cabin</h1>
+                        <p class="product-info__details">from £18,800 | 260 SF | 1 Door</p>
                     </div>
                     <div class="product-actions">
                         <a href="#" class="btn">View&nbsp;Product</a>
-                        <a href="#" class="btn">&#43;</a>
+                        <a href="#" class="btn btn--icon"><i class="las la-plus"></i></a>
                     </div>
                 </div>
             </div>
             <div class="section-slider__nav" id="productSliderNav">
-                <button type="button" class="slick-next" id="productSliderNavNext"> -> </button>
-                <button type="button" class="slick-prev" id="productSliderNavPrev"> <- </button>
+                <button type="button" class="btn btn--icon slick-next" id="productSliderNavNext"><i class="las la-arrow-right"></i></button>
+                <button type="button" class="btn btn--icon slick-prev" id="productSliderNavPrev"><i class="las la-arrow-left"></i></button>
             </div>
         </section>
 
@@ -137,11 +132,8 @@
                         Add value to your home.
                     </h1>
                     <div class="text-block__content">
-<!--                        <p class="text-block__text text-block__text&#45;&#45;highlighted">-->
-<!--                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis culpa, dicta dignissimos ea earum eligendi facilis, id ipsum, magni minima molestias nobis optio quae.-->
-<!--                        </p>-->
-                        <p class="text-block__text">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis culpa, dicta dignissimos ea earum eligendi facilis, id ipsum, magni minima molestias nobis optio quae.
+                        <p class="text-block__text paragraph">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida.
                         </p>
                         <a href="" class="btn">Explore&nbsp;Products</a>
                     </div>
@@ -153,25 +145,31 @@
 
     <footer class="page-footer">
 
-        <address class="contact">
+        <address class="contact-footer">
             <h1 class="heading-tertiary">Contact Us</h1>
-            <a href="tel:033069873614" target="_blank" class="has-hover">0330 69873 614</a>
-            <a href="mailto:production@radiatordigital.com" target="_blank" class="has-hover">production@radiatordigital.com</a>
-            <h2 class="heading-tertiary">Sign up for our newsletter</h2>
-            <form action="" class="">
-                <input type="text">
-                <button> -> </button>
-            </form>
-            <a href="https://www.linkedin.com/company/radiator-uk-ltd/" target="_blank" class="social-link social-link--linkedin">
-                <i class="lab la-linkedin-in"></i>
-            </a>
+            <div class="contact-footer__details">
+                <p><a href="tel:033069873614" target="_blank" class="">0330 69873 614</a></p>
+                <p><a href="mailto:production@radiatordigital.com" target="_blank" class="">production@radiatordigital.com</a></p>
+            </div>
+            <div class="contact-footer__newsletter">
+                <label class="heading-tertiary" for="email">Sign up for our newsletter</label>
+                <form action="" class="">
+                    <input type="email" name="email" id="email">
+                    <button><i class="las la-arrow-right"></i></button>
+                </form>
+            </div>
+            <div class="contact-footer__social">
+                <a href="https://www.linkedin.com/company/radiator-uk-ltd/" target="_blank" class="social-link social-link--linkedin">
+                    <i class="lab la-linkedin-in social-link__icon"></i>
+                </a>
+            </div>
         </address>
 
         <ul class="navigation-footer">
-            <li class="navigation-footer__item"><a href="#" class="has-hover">Products</a></li>
-            <li class="navigation-footer__item"><a href="#" class="has-hover">Process</a></li>
-            <li class="navigation-footer__item"><a href="#" class="has-hover">About</a></li>
-            <li class="navigation-footer__item"><a href="#" class="has-hover">Blog</a></li>
+            <li class="navigation-footer__item"><a href="#" class="navigation-footer__item__link heading-secondary has-hover">Products</a></li>
+            <li class="navigation-footer__item"><a href="#" class="navigation-footer__item__link heading-secondary has-hover">Process</a></li>
+            <li class="navigation-footer__item"><a href="#" class="navigation-footer__item__link heading-secondary has-hover">About</a></li>
+            <li class="navigation-footer__item"><a href="#" class="navigation-footer__item__link heading-secondary has-hover">Blog</a></li>
         </ul>
 
     </footer>
