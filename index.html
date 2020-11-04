@@ -18,7 +18,7 @@
 </head>
 <body>
 
-    <header class="page-header container">
+    <header class="page-header">
 
         <div class="logo">
             <img src="assets/logo.svg" alt="" class="logo__image">
@@ -42,15 +42,14 @@
 
     <main class="page-main">
 
-        <section class="section-featured section-featured--reversed container">
+        <section class="section-featured section-featured--reversed">
             <div class="section-featured__media section-featured__media--divided">
-                <div class="aspectratio-1-1"></div>
-                <picture class="featured-image0">
-                    <img src="https://via.placeholder.com/600x600?text=Featured+Image" alt="" class="featured-image__image">
+                <picture class="featured-image">
+                    <img src="images/Cabin-1-Side-View-web@0.5x.jpg" alt="" class="featured-image__image">
                 </picture>
             </div>
             <div class="section-featured__content">
-                <div class="text-block">
+                <div class="text-block content-sticky" data-animate="fade-in-top">
                     <h1 class="text-block__heading heading-primary">
                         Space to drive your passion.
                     </h1>
@@ -67,14 +66,14 @@
             </div>   
         </section>
         
-        <section class="section-featured theme-dark container">
+        <section class="section-featured theme-dark">
             <div class="section-featured__media">
                 <picture class="featured-image">
-                    <img src="https://via.placeholder.com/600x600?text=Featured+Image" alt="" class="featured-image__image">
+                    <img src="images/user@1x.jpg" alt="" class="featured-image__image">
                 </picture>
             </div>
             <div class="section-featured__content">
-                <div class="text-block">
+                <div class="text-block content-sticky" data-animate="fade-in-top">
                     <h1 class="text-block__heading heading-primary">
                         Our Vision
                     </h1>
@@ -91,13 +90,13 @@
             </div>
         </section>
 
-        <section class="section-slider container">
+        <section class="section-slider">
             <div class="section-slider__gallery" id="productSliderGallery">
                 <picture class="banner-image">
-                    <img src="https://via.placeholder.com/1200x600?text=Slider+Image" alt="" class="banner-image__image">
+                    <img src="images/Cabin8@1x.jpg" alt="" class="banner-image__image">
                 </picture>
                 <picture class="banner-image">
-                    <img src="https://via.placeholder.com/1200x600?text=Slider+Image+2" alt="" class="banner-image__image">
+                    <img src="images/Cabin1@1x.jpg" alt="" class="banner-image__image">
                 </picture>
             </div>
             <div class="section-slider__caption" id="productSliderCaptions">
@@ -128,29 +127,31 @@
             </div>
         </section>
 
-        <section class="section-banner theme-imagery container">
+        <section class="section-banner theme-imagery">
             <picture class="section-banner__image banner-image">
-                <img src="https://via.placeholder.com/1200x600?text=Banner+Image" alt="" class="banner-image__image">
+                <img src="images/lounge@1x.jpg" alt="" class="banner-image__image">
             </picture>
             <div class="section-banner__content">
                 <div class="text-block">
                     <h1 class="text-block__heading heading-primary">
                         Add value to your home.
                     </h1>
-                    <p class="text-block__text text-block__text--highlighted">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis culpa, dicta dignissimos ea earum eligendi facilis, id ipsum, magni minima molestias nobis optio quae.
-                    </p>
-                    <p class="text-block__text">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis culpa, dicta dignissimos ea earum eligendi facilis, id ipsum, magni minima molestias nobis optio quae.
-                    </p>
-                    <a href="" class="btn">Explore&nbsp;Products</a>
+                    <div class="text-block__content">
+<!--                        <p class="text-block__text text-block__text&#45;&#45;highlighted">-->
+<!--                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis culpa, dicta dignissimos ea earum eligendi facilis, id ipsum, magni minima molestias nobis optio quae.-->
+<!--                        </p>-->
+                        <p class="text-block__text">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis culpa, dicta dignissimos ea earum eligendi facilis, id ipsum, magni minima molestias nobis optio quae.
+                        </p>
+                        <a href="" class="btn">Explore&nbsp;Products</a>
+                    </div>
                 </div>
             </div>
         </section>
 
     </main>
 
-    <footer class="page-footer container">
+    <footer class="page-footer">
 
         <address class="contact">
             <h1 class="heading-tertiary">Contact Us</h1>
@@ -159,7 +160,7 @@
             <h2 class="heading-tertiary">Sign up for our newsletter</h2>
             <form action="" class="">
                 <input type="text">
-                <button></button>
+                <button> -> </button>
             </form>
             <a href="https://www.linkedin.com/company/radiator-uk-ltd/" target="_blank" class="social-link social-link--linkedin">
                 <i class="lab la-linkedin-in"></i>

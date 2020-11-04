@@ -2,18 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8fcdd443-e38b-4578-ac4d-60ab5ee8fc82" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/sass/abstracts/_image-ratios.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Cabin-1-Side-View-web@0.25x.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Cabin-1-Side-View-web@0.5x.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Cabin-1-Side-View-web@1x.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/lounge@0.25x.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/lounge@0.5x.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/lounge@1x.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/user@0.25x.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/user@0.5x.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/user@1x.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/min/main.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/min/main.min.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/min/main.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/min/main.min.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sass/components/_media-divider.sass" beforeDir="false" afterPath="$PROJECT_DIR$/sass/components/_media-divider.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/abstracts/_mixins.sass" beforeDir="false" afterPath="$PROJECT_DIR$/sass/abstracts/_mixins.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/abstracts/_variables.sass" beforeDir="false" afterPath="$PROJECT_DIR$/sass/abstracts/_variables.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/base/_base.sass" beforeDir="false" afterPath="$PROJECT_DIR$/sass/base/_base.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/base/_utilities.sass" beforeDir="false" afterPath="$PROJECT_DIR$/sass/base/_utilities.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/components/_slider.sass" beforeDir="false" afterPath="$PROJECT_DIR$/sass/components/_slider.sass" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sass/layout/_layout.sass" beforeDir="false" afterPath="$PROJECT_DIR$/sass/layout/_layout.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sass/main.sass" beforeDir="false" afterPath="$PROJECT_DIR$/sass/main.sass" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,11 +54,27 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="javascript.nodejs.core.library.configured.version" value="12.13.0" />
     <property name="javascript.nodejs.core.library.typings.version" value="12.19.3" />
+    <property name="js.buildTools.gulp.gulp_package_dir" value="$PROJECT_DIR$/node_modules/gulp" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/images" />
     <property name="list.type.of.created.stylesheet" value="Sass" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\jakoo\PhpstormProjects\radiator-dev-task\images" />
+    </key>
+  </component>
   <component name="RunManager" selected="npm.compile:watch">
+    <configuration default="true" type="js.build_tools.gulp">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method v="2" />
+    </configuration>
     <configuration name="compile:css" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -122,18 +146,36 @@
       <workItem from="1604319638871" duration="32524000" />
       <workItem from="1604422045880" duration="307000" />
       <workItem from="1604423036002" duration="333000" />
-      <workItem from="1604426448545" duration="3268000" />
+      <workItem from="1604426448545" duration="15533000" />
     </task>
+    <task id="LOCAL-00001" summary="Update">
+      <created>1604431672799</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1604431672799</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
+    <MESSAGE value="Update" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update" />
   </component>
   <component name="WindowStateProjectService">
     <state x="369" y="155" width="1089" height="737" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1604426821191">
       <screen x="0" y="0" width="1829" height="999" />
     </state>
     <state x="369" y="155" width="1089" height="737" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1829.999@0.0.1829.999" timestamp="1604426821191" />
+    <state x="536" y="0" key="CommitChangelistDialog2" timestamp="1604431671391">
+      <screen x="0" y="0" width="1829" height="999" />
+    </state>
+    <state x="536" y="0" key="CommitChangelistDialog2/0.0.1829.999@0.0.1829.999" timestamp="1604431671391" />
     <state x="852" y="717" width="564" height="195" key="Github.ShareDialog" timestamp="1604421902960">
       <screen x="0" y="0" width="3072" height="1698" />
     </state>
@@ -162,9 +204,17 @@
     </state>
     <state width="1785" height="266" key="GridCell.Tab.0.right/0.0.1829.999@0.0.1829.999" timestamp="1604430842552" />
     <state width="1488" height="225" key="GridCell.Tab.0.right/0.0.3072.1698/-1920.1067.1920.1050@0.0.3072.1698" timestamp="1604421974263" />
+    <state x="507" y="233" key="Vcs.Push.Dialog.v2" timestamp="1604431675708">
+      <screen x="0" y="0" width="1829" height="999" />
+    </state>
+    <state x="507" y="233" key="Vcs.Push.Dialog.v2/0.0.1829.999@0.0.1829.999" timestamp="1604431675708" />
     <state x="1243" y="573" width="576" height="789" key="find.popup" timestamp="1604342326381">
       <screen x="0" y="0" width="3072" height="1698" />
     </state>
     <state x="1243" y="573" width="576" height="789" key="find.popup/0.0.3072.1698/-1920.1067.1920.1050@0.0.3072.1698" timestamp="1604342326381" />
+    <state x="571" y="231" width="672" height="677" key="run.anything.popup" timestamp="1604437885759">
+      <screen x="0" y="0" width="1829" height="999" />
+    </state>
+    <state x="571" y="231" width="672" height="677" key="run.anything.popup/0.0.1829.999@0.0.1829.999" timestamp="1604437885759" />
   </component>
 </project>
