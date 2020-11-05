@@ -1,6 +1,4 @@
 $(document).ready(function(){
-  console.log('jQuery Works');
-
   let toggle = document.querySelector('#navTrigger');
 
   toggle.addEventListener('click', function (e) {
