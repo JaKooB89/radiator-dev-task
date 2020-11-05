@@ -7,7 +7,6 @@ $(document).ready(function(){
     e.preventDefault();
     let body = document.querySelector('body');
     body.classList.toggle('active');
-    console.log('clicked');
   });
 
   $('#productSliderGallery').slick({

@@ -13,7 +13,6 @@
 }
 
 html {
-  overflow-x: hidden;
   font-size: 62.5%;
 }
 
@@ -434,6 +433,8 @@ body {
     visibility: hidden;
     position: absolute;
     bottom: 50%;
+    overflow: hidden;
+    width: 0;
   }
 }
 
@@ -469,6 +470,8 @@ body {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
+    width: unset;
+    overflow: unset;
     padding: 9.5rem 7rem 8rem;
     -webkit-transition: opacity .4s ease-in-out;
     -o-transition: opacity .4s ease-in-out;

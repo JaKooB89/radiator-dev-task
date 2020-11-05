@@ -25,6 +25,8 @@
     visibility: hidden
     position: absolute
     bottom: 50%
+    overflow: hidden
+    width: 0
   &__item
     margin-right: $gutter-md
   &__cta
@@ -44,6 +46,8 @@
       align-items: flex-start
       flex-direction: column
       justify-content: center
+      width: unset
+      overflow: unset
       padding: 9.5rem 7rem 8rem
       transition: opacity .4s ease-in-out
       &__item
