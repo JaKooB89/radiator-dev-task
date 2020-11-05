@@ -13,7 +13,21 @@
     display: flex
     justify-content: flex-end
     align-items: center
+    &__close
+      opacity: 0
+      visibility: hidden
+      width: 0
+    .active &
+      &__close
+        opacity: 1
+        visibility: visible
+        width: auto
+      &__open
+        width: 0
+        opacity: 0
+        visibility: hidden
     .las
+      transition: opacity .6s ease
       font-size: 40px
 
 .navigation-primary
@@ -34,20 +48,20 @@
   .active &
     @include media(md)
       display: flex
+      align-items: flex-start
+      flex-direction: column
+      justify-content: center
       position: absolute
-      opacity: 1
-      visibility: visible
       top: 0
       bottom: 0
       left: 0
       right: 0
-      background: $color-white
       z-index: 25
-      align-items: flex-start
-      flex-direction: column
-      justify-content: center
+      opacity: 1
+      visibility: visible
       width: unset
       overflow: unset
+      background: $color-white
       padding: 9.5rem 7rem 8rem
       transition: opacity .4s ease-in-out
       &__item

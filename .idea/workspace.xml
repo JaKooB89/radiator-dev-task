@@ -10,15 +10,14 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8fcdd443-e38b-4578-ac4d-60ab5ee8fc82" name="Default Changelist" comment="">
+    <list default="true" id="8fcdd443-e38b-4578-ac4d-60ab5ee8fc82" name="Default Changelist" comment="Update">
+      <change beforePath="$PROJECT_DIR$/.idea/radiator-dev-task.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/radiator-dev-task.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/min/main.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/min/main.min.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/min/main.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/min/main.min.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sass/base/_base.sass" beforeDir="false" afterPath="$PROJECT_DIR$/sass/base/_base.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sass/components/_navigation.sass" beforeDir="false" afterPath="$PROJECT_DIR$/sass/components/_navigation.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/min/main.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/min/main.min.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -126,8 +125,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gulp.js.watcher" />
         <item itemvalue="npm.compile:watch" />
+        <item itemvalue="Gulp.js.watcher" />
         <item itemvalue="npm.compile:css" />
         <item itemvalue="npm.compile:js" />
         <item itemvalue="npm.start" />
