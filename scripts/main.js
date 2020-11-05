@@ -1,5 +1,14 @@
 $(document).ready(function(){
-  console.log('jQuery Active');
+  console.log('jQuery Works');
+
+  let toggle = document.querySelector('#navTrigger');
+
+  toggle.addEventListener('click', function (e) {
+    e.preventDefault();
+    let body = document.querySelector('body');
+    body.classList.toggle('active');
+    console.log('clicked');
+  });
 
   $('#productSliderGallery').slick({
     arrows: false,

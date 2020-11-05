@@ -11,27 +11,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8fcdd443-e38b-4578-ac4d-60ab5ee8fc82" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/sass/components/_footer.sass" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sass/components/_navigation.sass" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sass/components/_section-featured.sass" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sass/themes/_dark.sass" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sass/themes/_imagery.sass" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/min/main.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/min/main.min.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/min/main.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/min/main.min.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sass/abstracts/_image-ratios.sass" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/sass/abstracts/_mixins.sass" beforeDir="false" afterPath="$PROJECT_DIR$/sass/abstracts/_mixins.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sass/abstracts/_variables.sass" beforeDir="false" afterPath="$PROJECT_DIR$/sass/abstracts/_variables.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sass/base/_typography.sass" beforeDir="false" afterPath="$PROJECT_DIR$/sass/base/_typography.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sass/base/_utilities.sass" beforeDir="false" afterPath="$PROJECT_DIR$/sass/base/_utilities.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sass/components/_button.sass" beforeDir="false" afterPath="$PROJECT_DIR$/sass/components/_button.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sass/components/_media-divider.sass" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sass/components/_slider.sass" beforeDir="false" afterPath="$PROJECT_DIR$/sass/components/_slider.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sass/layout/_layout.sass" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sass/main.sass" beforeDir="false" afterPath="$PROJECT_DIR$/sass/main.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sass/pages/_home.sass" beforeDir="false" afterPath="$PROJECT_DIR$/sass/components/_banner.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/base/_base.sass" beforeDir="false" afterPath="$PROJECT_DIR$/sass/base/_base.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/components/_navigation.sass" beforeDir="false" afterPath="$PROJECT_DIR$/sass/components/_navigation.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/min/main.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/min/main.min.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -174,7 +163,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604528440636</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Update">
+      <created>1604533933059</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1604533933059</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -198,10 +194,10 @@
       <screen x="0" y="0" width="1829" height="999" />
     </state>
     <state x="369" y="155" width="1089" height="737" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1829.999@0.0.1829.999" timestamp="1604426821191" />
-    <state x="536" y="0" key="CommitChangelistDialog2" timestamp="1604528439789">
+    <state x="536" y="0" key="CommitChangelistDialog2" timestamp="1604533932137">
       <screen x="0" y="0" width="1829" height="999" />
     </state>
-    <state x="536" y="0" key="CommitChangelistDialog2/0.0.1829.999@0.0.1829.999" timestamp="1604528439789" />
+    <state x="536" y="0" key="CommitChangelistDialog2/0.0.1829.999@0.0.1829.999" timestamp="1604533932137" />
     <state x="852" y="717" width="564" height="195" key="Github.ShareDialog" timestamp="1604421902960">
       <screen x="0" y="0" width="3072" height="1698" />
     </state>
@@ -234,10 +230,10 @@
       <screen x="0" y="0" width="3072" height="1698" />
     </state>
     <state x="1217" y="540" key="SettingsEditor/0.0.3072.1698/-1920.1067.1920.1050@0.0.3072.1698" timestamp="1604482532594" />
-    <state x="507" y="233" key="Vcs.Push.Dialog.v2" timestamp="1604528444108">
+    <state x="507" y="233" key="Vcs.Push.Dialog.v2" timestamp="1604533936367">
       <screen x="0" y="0" width="1829" height="999" />
     </state>
-    <state x="507" y="233" key="Vcs.Push.Dialog.v2/0.0.1829.999@0.0.1829.999" timestamp="1604528444108" />
+    <state x="507" y="233" key="Vcs.Push.Dialog.v2/0.0.1829.999@0.0.1829.999" timestamp="1604533936367" />
     <state x="740" y="112" width="802" height="751" key="find.popup" timestamp="1604531499102">
       <screen x="0" y="0" width="1829" height="999" />
     </state>

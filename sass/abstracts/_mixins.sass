@@ -24,6 +24,9 @@
   @if $breakpoint == mx
     @media (min-width: 112.5em) // 1800px
       @content
+  @if $breakpoint == landscape
+    @media (orientation: landscape)
+      @content
 
 @mixin layout-gutter-y
   padding-top: $gutter-xl

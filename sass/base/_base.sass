@@ -8,6 +8,7 @@
     box-sizing: inherit
 
 html
+  overflow-x: hidden
   font-size: 62.5%
   @include media(mx)
     font-size: 75%
@@ -21,6 +22,9 @@ html
 body
   box-sizing: border-box
   overflow-x: hidden
+  &.active
+    overflow: hidden
+    max-height: 100%
 
 a
   text-decoration: none
@@ -34,3 +38,11 @@ img, picture
 ::selection
   background-color: $color-primary-light
   color: $color-white
+
+::-webkit-scrollbar
+  width: 5px
+::-webkit-scrollbar-track
+  background: rgba(0,0,0,.1)
+::-webkit-scrollbar-thumb
+  background: $color-secondary
+  border-radius: 10px
