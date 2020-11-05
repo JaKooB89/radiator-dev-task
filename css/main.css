@@ -266,9 +266,9 @@ body {
   display: inline-block;
   color: #2a2738;
   outline: none;
-  -webkit-transition: all .4s ease;
-  -o-transition: all .4s ease;
-  transition: all .4s ease;
+  -webkit-transition: background .4s ease, color .4s ease, border .4s ease;
+  -o-transition: background .4s ease, color .4s ease, border .4s ease;
+  transition: background .4s ease, color .4s ease, border .4s ease;
 }
 
 .btn--icon {
