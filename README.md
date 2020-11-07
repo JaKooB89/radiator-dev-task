@@ -13,4 +13,4 @@
 
 ## Tests:
 ##### Because of a limited time, the page, is tested only on the newest versions of the most popular browsers (Chrome/FF/Opera/Edge) and the devices at hand (PC / Pixel 4).
-##### Because I decided to experiment with CSS Grid - the page in not compatible with Internet Explorer. In production, I'd consider using fallback.
+##### Because I decided to experiment with CSS Grid - the page is not compatible with Internet Explorer. In production, I'd consider using fallback.
