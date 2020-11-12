@@ -12,7 +12,14 @@
     @include layout-gutter-x
   @include media(sm)
     grid-template-columns: auto
-  .navigation-footer
+  .contact
+    grid-column: 1
     @include media(sm)
+      grid-column: 1
+      grid-row: 2
+  .navigation-footer
+    grid-column: 2
+    @include media(sm)
+      grid-column: 1
       grid-row: 1
       padding-bottom: 0

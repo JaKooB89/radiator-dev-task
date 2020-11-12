@@ -33,7 +33,9 @@ function compileSass() {
     .pipe(sass({
       outputStyle: 'expanded',
     })).on('error', sass.logError)
-    .pipe(postcss([autoprefixer()]))
+    .pipe(postcss(
+      [autoprefixer({ grid: 'autoplace' })]
+    ))
     .pipe(gulp.dest(paths.styles.dest))
     .pipe(postcss([cssnano()]))
     .pipe(concat('main.min.css'))

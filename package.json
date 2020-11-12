@@ -12,7 +12,7 @@
     "compile:css": "gulp css",
     "compile:js": "gulp js"
   },
-  "author": "Jakub Czaja",
+  "author": "jakoob89@gmail.com",
   "license": "ISC",
   "devDependencies": {
     "autoprefixer": "^10.0.1",

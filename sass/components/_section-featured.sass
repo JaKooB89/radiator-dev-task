@@ -4,9 +4,19 @@
   @include media(md)
     grid-template-columns: auto
   &__content
+    grid-column: 2
+    grid-row: 1
     @include layout-gutter-y
     @include layout-gutter-x
+    @include media(md)
+      grid-column: 1
+      grid-row: 1
   &__media
+    grid-column: 1
+    grid-row: 1
+    @include media(md)
+      grid-column: 1
+      grid-row: 2
     &--divided
       position: relative
       &:before,
@@ -29,12 +39,20 @@
         height: $gutter-sm
   &--reversed
     margin-bottom: $gutter-sm
+    .section-featured__media
+      grid-column: 2
+      grid-row: 1
+    .section-featured__content
+      grid-column: 1
+      grid-row: 1
     @include media(md)
       grid-template-columns: auto
-    .section-featured__content
-      grid-row: 1
-      @include media(md)
-        grid-row: unset
+      .section-featured__media
+        grid-column: 1
+        grid-row: 2
+      .section-featured__content
+        grid-column: 1
+        grid-row: 1
 
 .featured-image
   &__image
